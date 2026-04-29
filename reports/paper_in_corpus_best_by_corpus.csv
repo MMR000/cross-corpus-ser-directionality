@@ -1,0 +1,3 @@
+experiment,corpus,pooling_type,test_uar,test_wa,test_macro_f1,best_dev_uar,test_num_samples,source_file_used,source_file_path
+iemocap_in_corpus_attnpool,IEMOCAP,AttnPool,0.5165280604679237,0.5,0.5089212005717026,0.49364150635106474,1432,summary.csv,/home/mmr/emo_paper/ser_project/exp/iemocap_in_corpus_attnpool/summary.csv
+podcast_in_corpus_attnpool,PODCAST,AttnPool,0.5104166666666666,0.5104166666666666,0.5062634000877845,0.5114583333333333,4800,summary.csv,/home/mmr/emo_paper/ser_project/exp/podcast_in_corpus_attnpool/summary.csv

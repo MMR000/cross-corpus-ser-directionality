@@ -1,0 +1,22 @@
+Split Creation Summary
+================================================================================
+Total valid rows: 43506
+
+Dataset: crema_d
+  - speaker coverage: known=4900/4900, unknown_ratio=0.000, unique_known=91
+  - split_mode: speaker_aware
+  - train: 3389
+  - dev:   755
+  - test:  756
+Dataset: iemocap
+  - speaker coverage: known=6606/6606, unknown_ratio=0.000, unique_known=10
+  - split_mode: speaker_aware
+  - train: 3848
+  - dev:   1326
+  - test:  1432
+Dataset: podcast
+  - speaker coverage: known=0/32000, unknown_ratio=1.000, unique_known=0
+  - split_mode: stratified_fallback
+  - train: 22400
+  - dev:   4800
+  - test:  4800

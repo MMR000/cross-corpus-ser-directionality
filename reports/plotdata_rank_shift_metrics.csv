@@ -1,0 +1,13 @@
+label,family,metric,rank
+i2p-chunk,IEMOCAP→PODCAST,UAR,4
+i2p-chunk,IEMOCAP→PODCAST,Macro-F1,4
+i2p-chunk,IEMOCAP→PODCAST,Robustness,2
+i2p-s1,IEMOCAP→PODCAST,UAR,3
+i2p-s1,IEMOCAP→PODCAST,Macro-F1,3
+i2p-s1,IEMOCAP→PODCAST,Robustness,1
+p2i-chunk,PODCAST→IEMOCAP,UAR,1
+p2i-chunk,PODCAST→IEMOCAP,Macro-F1,1
+p2i-chunk,PODCAST→IEMOCAP,Robustness,3
+p2i-s1,PODCAST→IEMOCAP,UAR,2
+p2i-s1,PODCAST→IEMOCAP,Macro-F1,2
+p2i-s1,PODCAST→IEMOCAP,Robustness,4

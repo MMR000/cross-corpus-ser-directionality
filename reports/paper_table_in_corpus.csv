@@ -1,0 +1,7 @@
+experiment,domain,model_variant,test_uar,test_wa,test_macro_f1
+iemocap_in_corpus_attnpool,iemocap,attnpool,0.517,0.5,0.509
+iemocap_in_corpus_chunk,iemocap,chunk,0.506,0.534,0.505
+iemocap_in_corpus_meanpool,iemocap,meanpool,0.478,0.509,0.482
+podcast_in_corpus_attnpool,podcast,attnpool,0.51,0.51,0.506
+podcast_in_corpus_chunk,podcast,chunk,0.51,0.51,0.504
+podcast_in_corpus_meanpool,podcast,meanpool,0.506,0.506,0.496

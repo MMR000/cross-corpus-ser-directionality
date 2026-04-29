@@ -1,0 +1,36 @@
+experiment:
+  name: iemocap_in_corpus_attnpool
+  output_dir: exp
+seed: 42
+runtime:
+  device: auto
+data:
+  metadata_manifest: data/manifests/all_metadata_processed.csv
+  train_manifest: data/splits/protocol_a_in_corpus/iemocap_train.csv
+  dev_manifest: data/splits/protocol_a_in_corpus/iemocap_dev.csv
+  test_manifest: data/splits/protocol_a_in_corpus/iemocap_test.csv
+  path_column: processed_wav_path
+  label_column: emotion
+  sample_rate: 16000
+  num_workers: 4
+  max_duration_sec: 12.0
+features:
+  type: wav2vec2
+  model_name: facebook/wav2vec2-base
+  sample_rate: 16000
+  freeze: true
+model:
+  name: wav2vec2_attention_pool
+  num_classes: 4
+  dropout: 0.2
+train:
+  batch_size: 8
+  epochs: 8
+  lr: 0.0002
+  weight_decay: 0.0001
+  grad_clip: 1.0
+evaluation:
+  protocol: in_corpus
+  sets:
+    - name: iemocap_test
+      manifest: data/splits/protocol_a_in_corpus/iemocap_test.csv

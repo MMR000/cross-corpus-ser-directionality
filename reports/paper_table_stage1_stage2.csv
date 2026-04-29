@@ -1,0 +1,11 @@
+experiment,family,training_setup,source_domain,target_domain,model_variant,test_uar,test_wa,test_macro_f1,gain_vs_plain_chunk,gain_vs_stage1_chunk_domain_utt
+iemocap_to_podcast_chunk,baseline,cross_single_source,iemocap,podcast,chunk,0.361,0.361,0.303,0.0,-0.007
+iemocap_to_podcast_chunk_domain_utt,stage1,cross_single_source_uda,iemocap,podcast,chunk_domain_utt,0.369,0.369,0.312,0.007,0.0
+iemocap_to_podcast_chunk_domain_both,stage2,cross_single_source_uda,iemocap,podcast,chunk_domain_both,0.35,0.35,0.275,-0.011,-0.018
+iemocap_to_podcast_chunk_domain_both_both_weakchunk,stage2_ablation,cross_single_source_uda,iemocap,podcast,chunk_domain_both_weakchunk,0.351,0.351,0.276,-0.011,-0.018
+iemocap_plus_cremad_to_podcast_chunk,baseline,cross_multi_source,iemocap+crema_d,podcast,chunk,0.346,0.346,0.302,0.0,-0.004
+iemocap_plus_cremad_to_podcast_chunk_domain_utt,stage1,cross_multi_source_domain_adversarial,iemocap+crema_d,podcast,chunk_domain_utt,0.35,0.35,0.308,0.004,0.0
+iemocap_plus_cremad_to_podcast_chunk_domain_both,stage2,cross_multi_source_domain_adversarial,iemocap+crema_d,podcast,chunk_domain_both,0.356,0.356,0.308,0.009,0.005
+podcast_to_iemocap_chunk,baseline,cross_single_source,podcast,iemocap,chunk,0.426,0.391,0.393,0.0,0.017
+podcast_to_iemocap_chunk_domain_utt,stage1,cross_single_source_uda,podcast,iemocap,chunk_domain_utt,0.409,0.385,0.387,-0.017,0.0
+podcast_to_iemocap_chunk_domain_both,stage2,cross_single_source_uda,podcast,iemocap,chunk_domain_both,0.395,0.37,0.371,-0.031,-0.014

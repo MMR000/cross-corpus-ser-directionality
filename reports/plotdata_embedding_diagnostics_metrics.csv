@@ -1,0 +1,7 @@
+metric,Baseline Chunk,Stage1 Domain-Utt
+source_target_centroid_distance,25.78590320807963,20.56787473164664
+source_target_overlap_proxy,0.6255555555555555,0.6644444444444444
+within_emotion_compactness,29.46385120371427,28.35806983694128
+between_emotion_centroid_separation,5.415886586800689,3.161130271087432
+domain_separability_proxy,0.7344444444444445,0.7033333333333334
+emotion_separability_proxy,0.1838146191193754,0.11147198272886381

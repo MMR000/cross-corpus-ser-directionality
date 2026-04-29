@@ -1,0 +1,10 @@
+experiment,training_setup,source_domain,target_domain,model_variant,test_uar,test_wa,test_macro_f1
+iemocap_to_podcast_attnpool,cross_single_source,iemocap,podcast,attnpool,0.343,0.343,0.298
+iemocap_to_podcast_chunk,cross_single_source,iemocap,podcast,chunk,0.361,0.361,0.303
+iemocap_to_podcast_meanpool,cross_single_source,iemocap,podcast,meanpool,0.363,0.363,0.31
+iemocap_plus_cremad_to_podcast_attnpool,cross_multi_source,iemocap+crema_d,podcast,attnpool,0.31,0.31,0.26
+iemocap_plus_cremad_to_podcast_chunk,cross_multi_source,iemocap+crema_d,podcast,chunk,0.346,0.346,0.302
+iemocap_plus_cremad_to_podcast_meanpool,cross_multi_source,iemocap+crema_d,podcast,meanpool,0.358,0.358,0.308
+podcast_to_iemocap_attnpool,cross_single_source,podcast,iemocap,attnpool,0.415,0.38,0.381
+podcast_to_iemocap_chunk,cross_single_source,podcast,iemocap,chunk,0.426,0.391,0.393
+podcast_to_iemocap_meanpool,cross_single_source,podcast,iemocap,meanpool,0.403,0.384,0.38

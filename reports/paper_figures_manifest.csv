@@ -1,0 +1,10 @@
+figure_file,figure_group,description,main_or_supplementary,recommended_use
+fig_slope_stage_comparison.png,core,Stage progression slope chart,main,main
+fig_classwise_delta_heatmap.png,classwise,Class-wise stage delta heatmap,main,main
+fig_i2p_confusion_paired.png,classwise,Paired normalized confusion matrices (i2p),main,main
+fig_embedding_chunk_baseline_v2.png,embedding,Embedding plot baseline with centroids,main,main
+fig_embedding_chunk_domain_utt_v2.png,embedding,Embedding plot stage1 with centroids,main,main
+fig_target_fraction_ablation.png,ablation,Target fraction gain plot,supplementary,supplementary
+fig_source_fraction_ablation.png,ablation,Source fraction gain plot,supplementary,supplementary
+fig_stage2_ablation_i2p.png,ablation,Stage2 ablation comparison,supplementary,supplementary
+fig_multiseed_robustness.png,robustness,Mean/std multi-seed UAR,supplementary,supplementary

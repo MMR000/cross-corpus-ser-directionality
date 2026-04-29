@@ -1,0 +1,48 @@
+# Python cache and virtualenv
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+env/
+# large data
+data/raw/
+data/processed/
+
+# training artifacts
+exp/
+
+# heavy figures
+reports/**/*.png
+reports/**/*.pdf
+
+# cache
+__pycache__/
+*.pyc
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Keep experiment summaries/configs, ignore heavy training artifacts
+exp/**/best.ckpt
+exp/**/train.log
+exp/**/train_log.csv
+exp/**/plots/
+exp/**/analysis/
+exp/**/tmp_manifests/
+exp/**/confusion_*.png
+exp/**/confusion_eval_*.png
+exp/**/confusion_dev_best.png
+exp/**/confusion_test.png
+
+# Large media artifacts in reports
+reports/**/*.pdf
+
+# Optional: ignore local notebooks/checkpoints if created later
+.ipynb_checkpoints/

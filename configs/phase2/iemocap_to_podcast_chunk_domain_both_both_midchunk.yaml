@@ -1,0 +1,52 @@
+experiment:
+  name: iemocap_to_podcast_chunk_domain_both_both_midchunk
+  output_dir: exp
+seed: 42
+runtime:
+  device: auto
+data:
+  metadata_manifest: data/manifests/all_metadata_processed.csv
+  train_manifest: data/splits/protocol_b_one_to_one/iemocap_to_podcast_train.csv
+  dev_manifest:
+  test_manifest: data/splits/protocol_b_one_to_one/iemocap_to_podcast_test.csv
+  path_column: processed_wav_path
+  label_column: emotion
+  sample_rate: 16000
+  num_workers: 4
+  max_duration_sec: 12.0
+  domain_column: dataset
+  domain_classes:
+    iemocap: 0
+    podcast: 1
+features:
+  type: wav2vec2
+  model_name: facebook/wav2vec2-base
+  sample_rate: 16000
+  freeze: true
+model:
+  name: chunk_attention_domain_both
+  num_classes: 4
+  dropout: 0.2
+  chunk_size_sec: 1.0
+  chunk_overlap_sec: 0.5
+  domain_grl_alpha: 1.0
+  chunk_domain_grl_alpha: 1.0
+  utterance_domain_loss_weight: 1.0
+  chunk_domain_loss_weight: 0.3
+uda:
+  enabled: true
+  source_domain: iemocap
+  target_domain: podcast
+  target_train_manifest: data/splits/protocol_a_in_corpus/podcast_train.csv
+  target_dev_manifest: data/splits/protocol_a_in_corpus/podcast_dev.csv
+train:
+  batch_size: 8
+  epochs: 8
+  lr: 0.0002
+  weight_decay: 0.0001
+  grad_clip: 1.0
+evaluation:
+  protocol: one_to_one_cross_corpus
+  sets:
+    - name: iemocap_to_podcast_test
+      manifest: data/splits/protocol_b_one_to_one/iemocap_to_podcast_test.csv

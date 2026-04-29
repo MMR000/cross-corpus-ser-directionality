@@ -1,0 +1,9 @@
+experiment,source_domain,target_domain,utterance_domain_loss_weight,chunk_domain_loss_weight,test_uar,test_wa,test_macro_f1,gain_vs_plain_chunk,gain_vs_stage1_domain_utt,rank_by_uar
+iemocap_to_podcast_chunk_domain_utt,iemocap,podcast,1.0,0.0,0.369,0.369,0.312,0.007,0.0,1
+iemocap_to_podcast_chunk,iemocap,podcast,0.0,0.0,0.361,0.361,0.303,0.0,-0.007,2
+iemocap_to_podcast_chunk_domain_both_both_weakchunk,iemocap,podcast,1.0,0.1,0.351,0.351,0.276,-0.011,-0.018,3
+iemocap_to_podcast_chunk_domain_both,iemocap,podcast,1.0,1.0,0.35,0.35,0.275,-0.011,-0.018,4
+iemocap_to_podcast_chunk_domain_both_both_midchunk,iemocap,podcast,1.0,0.3,0.35,0.35,0.275,-0.011,-0.018,5
+iemocap_to_podcast_chunk_domain_both_chunk_only_w05,iemocap,podcast,0.0,0.5,0.343,0.343,0.269,-0.018,-0.025,6
+iemocap_to_podcast_chunk_domain_both_chunk_only_w01,iemocap,podcast,0.0,0.1,0.343,0.343,0.268,-0.019,-0.026,7
+iemocap_to_podcast_chunk_domain_both_chunk_only_w03,iemocap,podcast,0.0,0.3,0.343,0.343,0.268,-0.019,-0.026,8

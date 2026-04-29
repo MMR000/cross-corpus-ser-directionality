@@ -1,0 +1,13 @@
+dataset,emotion,count
+crema_d,angry,1271
+crema_d,happy,1271
+crema_d,neutral,1087
+crema_d,sad,1271
+iemocap,angry,1269
+iemocap,happy,2632
+iemocap,neutral,1726
+iemocap,sad,1250
+podcast,angry,8000
+podcast,happy,8000
+podcast,neutral,8000
+podcast,sad,8000

@@ -1,0 +1,4 @@
+corpus,split,angry_count,happy_count,sad_count,neutral_count,total_count
+IEMOCAP,train,1269,2632,1250,1726,6877
+PODCAST,train,8000,8000,8000,8000,32000
+CREMA-D,train,1271,1271,1271,1087,4900

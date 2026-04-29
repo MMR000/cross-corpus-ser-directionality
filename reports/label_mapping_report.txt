@@ -1,0 +1,65 @@
+Label Mapping Summary
+
+============================================================
+
+Dataset: crema_d
+Total samples: 7442
+Dropped (unmapped): 2542
+Mapped distribution:
+  - angry: 1271
+  - happy: 1271
+  - neutral: 1087
+  - sad: 1271
+Top raw labels:
+  - anger: 1271
+  - disgust: 1271
+  - fear: 1271
+  - happy: 1271
+  - sad: 1271
+  - neutral: 1087
+
+Dataset: iemocap
+Total samples: 10039
+Dropped (unmapped): 3162
+Mapped distribution:
+  - angry: 1269
+  - happy: 2632
+  - neutral: 1726
+  - sad: 1250
+Top raw labels:
+  - frustrated: 2917
+  - excited: 1976
+  - neutral: 1726
+  - angry: 1269
+  - sad: 1250
+  - happy: 656
+  - surprise: 110
+  - fear: 107
+  - other: 26
+  - disgust: 2
+
+Dataset: podcast
+Total samples: 149307
+Dropped (unmapped): 62317
+Mapped distribution:
+  - angry: 9596
+  - happy: 25848
+  - neutral: 39727
+  - sad: 11819
+Top raw labels:
+  - neutral: 39727
+  - concerned: 21813
+  - happy: 21370
+  - sad: 11819
+  - angry: 9596
+  - frustrated: 7560
+  - amused: 6845
+  - annoyed: 6576
+  - disappointed: 6215
+  - excited: 4478
+  - surprise: 4050
+  - contempt: 3747
+  - confused: 2165
+  - disgust: 2144
+  - fear: 697
+  - depressed: 505

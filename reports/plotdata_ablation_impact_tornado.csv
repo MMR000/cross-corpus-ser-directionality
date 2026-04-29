@@ -1,0 +1,17 @@
+family,item_label,delta_uar,reference
+Source Fraction,SRC s1 f=0.25,-0.049583333333333424,chunk_domain_utt@1.00
+Target Fraction,TGT s1 f=0.75,-0.0283333333333333,plain_chunk
+Source Fraction,SRC chunk f=0.25,-0.027083333333333348,chunk@1.00
+Stage2 Ablation,S2 chunk w0.1,-0.0258333333333333,stage1_chunk_domain_utt
+Stage2 Ablation,S2 chunk w0.3,-0.0258333333333333,stage1_chunk_domain_utt
+Stage2 Ablation,S2 chunk w0.5,-0.0254166666666666,stage1_chunk_domain_utt
+Stage2 Ablation,S2 default,-0.0183333333333333,stage1_chunk_domain_utt
+Stage2 Ablation,S2 both w0.3,-0.0183333333333333,stage1_chunk_domain_utt
+Stage2 Ablation,S2 both w0.1,-0.0179166666666666,stage1_chunk_domain_utt
+Target Fraction,TGT s1 f=0.50,-0.0114583333333333,plain_chunk
+Source Fraction,SRC s1 f=0.50,-0.0002083333333334214,chunk_domain_utt@1.00
+Source Fraction,SRC s1 f=1.00,0.0,chunk_domain_utt@1.00
+Source Fraction,SRC chunk f=1.00,0.0,chunk@1.00
+Target Fraction,TGT s1 f=0.25,0.0047916666666665,plain_chunk
+Target Fraction,TGT s1 f=1.00,0.0072916666666666,plain_chunk
+Source Fraction,SRC chunk f=0.50,0.015833333333333366,chunk@1.00

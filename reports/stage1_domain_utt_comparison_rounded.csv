@@ -1,0 +1,7 @@
+experiment,training_setup,source_domain,target_domain,model_variant,test_uar,test_wa,test_macro_f1,absolute_gain_vs_plain_chunk
+iemocap_to_podcast_chunk,single_source_cross_corpus,iemocap,podcast,plain_chunk,0.3615,0.3615,0.3032,0.0000
+iemocap_to_podcast_chunk_domain_utt,single_source_cross_corpus_uda,iemocap,podcast,chunk_domain_utt,0.3688,0.3688,0.3123,0.0073
+podcast_to_iemocap_chunk,single_source_cross_corpus,podcast,iemocap,plain_chunk,0.4262,0.3911,0.3930,0.0000
+podcast_to_iemocap_chunk_domain_utt,single_source_cross_corpus_uda,podcast,iemocap,chunk_domain_utt,0.4090,0.3855,0.3874,-0.0172
+iemocap_plus_cremad_to_podcast_chunk,multi_source_cross_corpus,iemocap+crema_d,podcast,plain_chunk,0.3465,0.3465,0.3018,0.0000
+iemocap_plus_cremad_to_podcast_chunk_domain_utt,multi_source_cross_corpus_domain_adversarial,iemocap+crema_d,podcast,chunk_domain_utt,0.3502,0.3502,0.3084,0.0037

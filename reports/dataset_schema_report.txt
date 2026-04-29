@@ -1,0 +1,114 @@
+Dataset Schema Inspection Report
+================================================================================
+
+Dataset: AbstractTTS/IEMOCAP (iemocap)
+Splits: ['train']
+
+  Split: train | Num rows: 10039
+  Columns: ['file', 'audio', 'frustrated', 'angry', 'sad', 'disgust', 'excited', 'fear', 'neutral', 'surprise', 'happy', 'EmoAct', 'EmoVal', 'EmoDom', 'gender', 'transcription', 'major_emotion', 'speaking_rate', 'pitch_mean', 'pitch_std', 'rms', 'relative_db']
+  Inferred schema: {'audio_col': 'audio',
+ 'label_col': 'major_emotion',
+ 'speaker_col': None,
+ 'text_col': 'transcription'}
+  Audio-like columns by name: ['audio']
+  Label-like columns by name: ['major_emotion']
+  Sample preview:
+{
+  "file": "Ses01F_impro01_F000.wav",
+  "audio": "<datasets.features._torchcodec.AudioDecoder object at 0x7a457c8f6150>",
+  "frustrated": 0.0062500000931322575,
+  "angry": 0.0062500000931322575,
+  "sad": 0.0062500000931322575,
+  "disgust": 0.0062500000931322575,
+  "excited": 0.0062500000931322575,
+  "fear": 0.0062500000931322575,
+  "neutral": 0.949999988079071,
+  "surprise": 0.0062500000931322575,
+  "happy": 0.0062500000931322575,
+  "EmoAct": 2.3333330154418945,
+  "EmoVal": 2.6666669845581055,
+  "EmoDom": 2.0,
+  "gender": "Female",
+  "transcription": " Excuse me.",
+  "major_emotion": "neutral",
+  "speaking_rate": 5.139999866485596,
+  "pitch_mean": 202.79881286621094,
+  "pitch_std": 76.12785339355469,
+  "rms": 0.00788376946002245,
+  "relative_db": -17.938434600830078
+}
+
+Dataset: AbstractTTS/PODCAST (podcast)
+Splits: ['train']
+
+  Split: train | Num rows: 149307
+  Columns: ['file', 'audio', 'angry', 'frustrated', 'annoyed', 'disappointed', 'sad', 'disgust', 'depressed', 'contempt', 'confused', 'concerned', 'fear', 'neutral', 'surprise', 'amused', 'excited', 'happy', 'EmoAct', 'EmoVal', 'EmoDom', 'major_emotion', 'gender', 'transcription', 'speaking_rate', 'pitch_mean', 'pitch_std', 'rms', 'relative_db']
+  Inferred schema: {'audio_col': 'audio',
+ 'label_col': 'major_emotion',
+ 'speaker_col': None,
+ 'text_col': 'transcription'}
+  Audio-like columns by name: ['audio']
+  Label-like columns by name: ['major_emotion']
+  Sample preview:
+{
+  "file": "MSP-PODCAST_0001_0008.wav",
+  "audio": "<datasets.features._torchcodec.AudioDecoder object at 0x7a45b09c89d0>",
+  "angry": 0.003333332948386669,
+  "frustrated": 0.003333332948386669,
+  "annoyed": 0.003333332948386669,
+  "disappointed": 0.003333332948386669,
+  "sad": 0.10851851850748062,
+  "disgust": 0.003333332948386669,
+  "depressed": 0.10851851850748062,
+  "contempt": 0.003333332948386669,
+  "confused": 0.2137037068605423,
+  "concerned": 0.10851851850748062,
+  "fear": 0.003333332948386669,
+  "neutral": 0.42407408356666565,
+  "surprise": 0.003333332948386669,
+  "amused": 0.003333332948386669,
+  "excited": 0.003333332948386669,
+  "happy": 0.003333332948386669,
+  "EmoAct": 2.200000047683716,
+  "EmoVal": 4.0,
+  "EmoDom": 2.5999999046325684,
+  "major_emotion": "neutral",
+  "gender": "male",
+  "transcription": "it's it follows. that's the movie. and i know it came out january 27th in the uk. did it come out later there, or...?",
+  "speaking_rate": 9.630000114440918,
+  "pitch_mean": 154.1699676513672,
+  "pitch_std": 140.2524871826172,
+  "rms": 0.015679065138101578,
+  "relative_db": -18.92412567138672
+}
+
+Dataset: AbstractTTS/CREMA-D (crema_d)
+Splits: ['train']
+
+  Split: train | Num rows: 7442
+  Columns: ['file', 'audio', 'angry', 'sad', 'disgust', 'fear', 'neutral', 'happy', 'gender', 'transcription', 'major_emotion', 'speaking_rate', 'pitch_mean', 'pitch_std', 'rms', 'relative_db']
+  Inferred schema: {'audio_col': 'audio',
+ 'label_col': 'major_emotion',
+ 'speaker_col': None,
+ 'text_col': 'transcription'}
+  Audio-like columns by name: ['audio']
+  Label-like columns by name: ['major_emotion']
+  Sample preview:
+{
+  "file": "1001_DFA_ANG_XX.wav",
+  "audio": "<datasets.features._torchcodec.AudioDecoder object at 0x7a45b09e06d0>",
+  "angry": 0.5740000009536743,
+  "sad": 0.009999999776482582,
+  "disgust": 0.2919999957084656,
+  "fear": 0.009999999776482582,
+  "neutral": 0.10400000214576721,
+  "happy": 0.009999999776482582,
+  "gender": "Male",
+  "transcription": "Don't forget a jacket.",
+  "major_emotion": "anger",
+  "speaking_rate": 7.909999847412109,
+  "pitch_mean": 107.21411895751953,
+  "pitch_std": 36.677024841308594,
+  "rms": 0.041986193507909775,
+  "relative_db": -20.282665252685547
+}

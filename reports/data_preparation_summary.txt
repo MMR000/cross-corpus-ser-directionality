@@ -1,0 +1,24 @@
+Data Preparation Summary
+================================================================================
+Valid samples: 43777
+Dropped due to missing audio field: 0
+Dropped due to audio decode failure: 0
+Dropped due to unmapped label: 68021
+Dropped due to subsampling caps: 54990
+Average duration (sec): 5.290
+
+Subsampling parameters:
+  - max_samples_per_dataset: None
+  - max_samples_per_class: 8000
+  - derived_per_class_cap: None
+
+Per-dataset counts:
+  - crema_d: 4900
+    speaker coverage: known=4900/4900, unknown_ratio=0.000, unique_known=91
+    recommended split mode: speaker_aware
+  - iemocap: 6877
+    speaker coverage: known=6877/6877, unknown_ratio=0.000, unique_known=10
+    recommended split mode: speaker_aware
+  - podcast: 32000
+    speaker coverage: known=0/32000, unknown_ratio=1.000, unique_known=0
+    recommended split mode: stratified_fallback

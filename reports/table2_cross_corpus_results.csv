@@ -1,0 +1,7 @@
+experiment,source_domain,target_domain,aggregation_type,test_uar,test_wa,test_macro_f1,best_dev_uar
+iemocap_to_podcast_meanpool,iemocap,podcast,meanpool,0.363125,0.363125,0.309731358279013,0.4634712299080541
+iemocap_to_podcast_attnpool,iemocap,podcast,attnpool,0.343125,0.343125,0.2977565662068763,0.4774829750899376
+iemocap_to_podcast_chunk,iemocap,podcast,chunk_attention,0.3614583333333333,0.3614583333333333,0.3031986771639473,0.4851387358881763
+podcast_to_iemocap_meanpool,podcast,iemocap,meanpool,0.4028838450816104,0.3840782122905028,0.3803256271779479,0.5025000000000001
+podcast_to_iemocap_attnpool,podcast,iemocap,attnpool,0.4147063280606997,0.3798882681564245,0.3807635852797142,0.5114583333333333
+podcast_to_iemocap_chunk,podcast,iemocap,chunk_attention,0.4262113222607047,0.3910614525139664,0.3929999829109791,0.4989583333333333

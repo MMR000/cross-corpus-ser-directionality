@@ -1,0 +1,10 @@
+direction,stage,test_uar,direction_pub,stage_pub
+iemocap_to_podcast,baseline_chunk,0.3614583333333333,IEMOCAP→PODCAST,Baseline
+iemocap_to_podcast,stage1_domain_utt,0.36875,IEMOCAP→PODCAST,Stage 1
+iemocap_to_podcast,stage2_domain_both,0.3504166666666667,IEMOCAP→PODCAST,Stage 2
+podcast_to_iemocap,baseline_chunk,0.4262113222607047,PODCAST→IEMOCAP,Baseline
+podcast_to_iemocap,stage1_domain_utt,0.4090070941521092,PODCAST→IEMOCAP,Stage 1
+podcast_to_iemocap,stage2_domain_both,0.3950130070895167,PODCAST→IEMOCAP,Stage 2
+iemocap_plus_cremad_to_podcast,baseline_chunk,0.3464583333333333,IEMOCAP+CREMA-D→PODCAST,Baseline
+iemocap_plus_cremad_to_podcast,stage1_domain_utt,0.3502083333333333,IEMOCAP+CREMA-D→PODCAST,Stage 1
+iemocap_plus_cremad_to_podcast,stage2_domain_both,0.3556249999999999,IEMOCAP+CREMA-D→PODCAST,Stage 2

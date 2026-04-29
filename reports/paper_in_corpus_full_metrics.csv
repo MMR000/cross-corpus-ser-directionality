@@ -1,0 +1,7 @@
+experiment,corpus,pooling_type,test_uar,test_wa,test_macro_f1,best_dev_uar,test_num_samples,source_file_used,source_file_path
+iemocap_in_corpus_attnpool,IEMOCAP,AttnPool,0.5165280604679237,0.5,0.5089212005717026,0.49364150635106474,1432,summary.csv,/home/mmr/emo_paper/ser_project/exp/iemocap_in_corpus_attnpool/summary.csv
+iemocap_in_corpus_chunk,IEMOCAP,Chunk,0.506002560323648,0.534217877094972,0.5054728162055179,0.4851387358881763,1432,summary.csv,/home/mmr/emo_paper/ser_project/exp/iemocap_in_corpus_chunk/summary.csv
+iemocap_in_corpus_meanpool,IEMOCAP,MeanPool,0.4775702807593398,0.5090782122905028,0.4822998088643489,0.45778583281299434,1432,summary.csv,/home/mmr/emo_paper/ser_project/exp/iemocap_in_corpus_meanpool/summary.csv
+podcast_in_corpus_attnpool,PODCAST,AttnPool,0.5104166666666666,0.5104166666666666,0.5062634000877845,0.5114583333333333,4800,summary.csv,/home/mmr/emo_paper/ser_project/exp/podcast_in_corpus_attnpool/summary.csv
+podcast_in_corpus_chunk,PODCAST,Chunk,0.5095833333333333,0.5095833333333334,0.5036298899029179,0.4989583333333333,4800,summary.csv,/home/mmr/emo_paper/ser_project/exp/podcast_in_corpus_chunk/summary.csv
+podcast_in_corpus_meanpool,PODCAST,MeanPool,0.5058333333333334,0.5058333333333334,0.4957778748031957,0.5025000000000001,4800,summary.csv,/home/mmr/emo_paper/ser_project/exp/podcast_in_corpus_meanpool/summary.csv

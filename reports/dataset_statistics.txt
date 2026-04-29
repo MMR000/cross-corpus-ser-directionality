@@ -1,0 +1,56 @@
+Dataset Statistics
+================================================================================
+
+Dataset: crema_d
+Total samples: 4900
+Speakers: 91
+Duration mean/std: 2.490 / 0.478
+Duration histogram:
+  - 0-1s: 0
+  - 1-2s: 648
+  - 2-3s: 3578
+  - 3-5s: 673
+  - 5-8s: 1
+  - 8-12s: 0
+  - 12-20+s: 0
+Class distribution:
+  - angry: 1271
+  - happy: 1271
+  - sad: 1271
+  - neutral: 1087
+
+Dataset: iemocap
+Total samples: 6606
+Speakers: 10
+Duration mean/std: 4.127 / 2.382
+Duration histogram:
+  - 0-1s: 0
+  - 1-2s: 1137
+  - 2-3s: 1591
+  - 3-5s: 1966
+  - 5-8s: 1331
+  - 8-12s: 579
+  - 12-20+s: 2
+Class distribution:
+  - happy: 2546
+  - neutral: 1685
+  - angry: 1226
+  - sad: 1149
+
+Dataset: podcast
+Total samples: 32000
+Speakers: 1
+Duration mean/std: 5.892 / 2.371
+Duration histogram:
+  - 0-1s: 0
+  - 1-2s: 11
+  - 2-3s: 2636
+  - 3-5s: 11452
+  - 5-8s: 10589
+  - 8-12s: 7312
+  - 12-20+s: 0
+Class distribution:
+  - neutral: 8000
+  - happy: 8000
+  - sad: 8000
+  - angry: 8000

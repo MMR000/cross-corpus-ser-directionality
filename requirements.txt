@@ -1,0 +1,17 @@
+torch
+torchaudio
+datasets
+transformers
+accelerate
+pandas
+numpy
+scikit-learn
+scipy
+soundfile
+librosa
+tqdm
+pyyaml
+matplotlib
+seaborn
+umap-learn
+torchcodec

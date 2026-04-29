@@ -1,0 +1,9 @@
+experiment,ablation_variant,utterance_domain_loss_weight,chunk_domain_loss_weight,test_uar,test_wa,test_macro_f1,absolute_gain_vs_plain_chunk,absolute_gain_vs_chunk_domain_utt,absolute_gain_vs_chunk_domain_both_default
+iemocap_to_podcast_chunk,plain_chunk,0.0,0.0,0.3615,0.3615,0.3032,0.0000,-0.0073,0.0110
+iemocap_to_podcast_chunk_domain_utt,chunk_domain_utt,1.0,0.0,0.3688,0.3688,0.3123,0.0073,0.0000,0.0183
+iemocap_to_podcast_chunk_domain_both,chunk_domain_both_default,1.0,1.0,0.3504,0.3504,0.2749,-0.0110,-0.0183,0.0000
+iemocap_to_podcast_chunk_domain_both_chunk_only_w01,chunk_only_w01,0.0,0.1,0.3429,0.3429,0.2684,-0.0185,-0.0258,-0.0075
+iemocap_to_podcast_chunk_domain_both_chunk_only_w03,chunk_only_w03,0.0,0.3,0.3429,0.3429,0.2683,-0.0185,-0.0258,-0.0075
+iemocap_to_podcast_chunk_domain_both_chunk_only_w05,chunk_only_w05,0.0,0.5,0.3433,0.3433,0.2685,-0.0181,-0.0254,-0.0071
+iemocap_to_podcast_chunk_domain_both_both_weakchunk,both_weakchunk,1.0,0.1,0.3508,0.3508,0.2759,-0.0106,-0.0179,0.0004
+iemocap_to_podcast_chunk_domain_both_both_midchunk,both_midchunk,1.0,0.3,0.3504,0.3504,0.2754,-0.0110,-0.0183,0.0000

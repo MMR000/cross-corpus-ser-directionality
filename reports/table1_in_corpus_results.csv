@@ -1,0 +1,7 @@
+experiment,source_domain,target_domain,aggregation_type,test_uar,test_wa,test_macro_f1,best_dev_uar
+iemocap_in_corpus_meanpool,iemocap,iemocap,meanpool,0.4775702807593398,0.5090782122905028,0.4822998088643489,0.4577858328129943
+iemocap_in_corpus_attnpool,iemocap,iemocap,attnpool,0.5165280604679237,0.5,0.5089212005717026,0.4936415063510647
+iemocap_in_corpus_chunk,iemocap,iemocap,chunk_attention,0.506002560323648,0.534217877094972,0.5054728162055179,0.4851387358881763
+podcast_in_corpus_meanpool,podcast,podcast,meanpool,0.5058333333333334,0.5058333333333334,0.4957778748031957,0.5025000000000001
+podcast_in_corpus_attnpool,podcast,podcast,attnpool,0.5104166666666666,0.5104166666666666,0.5062634000877845,0.5114583333333333
+podcast_in_corpus_chunk,podcast,podcast,chunk_attention,0.5095833333333333,0.5095833333333334,0.5036298899029179,0.4989583333333333

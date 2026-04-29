@@ -1,0 +1,2 @@
+experiment,source_domain,target_domain,utterance_domain_loss_weight,chunk_domain_loss_weight,test_uar,test_wa,test_macro_f1,gain_vs_plain_chunk,gain_vs_stage1_domain_utt,rank_by_uar
+iemocap_to_podcast_chunk_domain_utt,iemocap,podcast,1.0,0.0,0.369,0.369,0.312,0.007,0.0,1
