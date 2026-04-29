@@ -13,10 +13,6 @@ data/processed/
 # training artifacts
 exp/
 
-# heavy figures
-reports/**/*.png
-reports/**/*.pdf
-
 # cache
 __pycache__/
 *.pyc
@@ -36,10 +32,6 @@ exp/**/train_log.csv
 exp/**/plots/
 exp/**/analysis/
 exp/**/tmp_manifests/
-exp/**/confusion_*.png
-exp/**/confusion_eval_*.png
-exp/**/confusion_dev_best.png
-exp/**/confusion_test.png
 
 # Large media artifacts in reports
 reports/**/*.pdf
